@@ -33,16 +33,16 @@ CapacitiveKey key2 = CapacitiveKey(
   255   //LED Brightness (0-255)
 );
 CapacitiveKey key3 = CapacitiveKey(
-  4,    //Capacitive Send Pin
-  8,    //Capacitive Sense Pin
+  A3,    //Capacitive Send Pin
+  15,    //Capacitive Sense Pin
   10,   //LED Pin
   5,    //Capacitive Threshold
   'c',  //Keyboard Key
   255   //LED Brightness (0-255)
 );
 CapacitiveKey key4 = CapacitiveKey(
-  5,    //Capacitive Send Pin
-  9,    //Capacitive Sense Pin
+  A2,    //Capacitive Send Pin
+  14,    //Capacitive Sense Pin
   10,   //LED Pin
   5,    //Capacitive Threshold
   'v',  //Keyboard Key
