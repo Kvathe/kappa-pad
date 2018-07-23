@@ -8,8 +8,8 @@ class CapacitiveKey {
     unsigned int threshold;  
     int led;
     unsigned int sample;
-    unsigned char ledBrightness;
-    CapacitiveKey(uint8_t sendPin, uint8_t receivePin, int statusLED, unsigned int capacitiveThreshold, char keyboardKey, unsigned char ledBrightness)  {
+    unsigned int ledBrightness;
+    CapacitiveKey(uint8_t sendPin, uint8_t receivePin, int statusLED, unsigned int capacitiveThreshold, char keyboardKey, unsigned int ledBrightness)  {
       sensor = new CapacitiveSensor(sendPin, receivePin);
       threshold = capacitiveThreshold;
       key = keyboardKey;
@@ -23,7 +23,7 @@ class CapacitiveKey {
       sample = sensor->capacitiveSensorRaw(1);
       if (sample > threshold) {
         if (keyReleased) {
-          analogWrite(led, 255);
+          analogWrite(led, ledBrightness);
           if (keyboardActive) Keyboard.press(key);
           keyReleased = false;
         }
