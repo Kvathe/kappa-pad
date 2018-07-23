@@ -4,11 +4,11 @@ Forked from fb39a4's repository. Fixed minor bugs and added two more keys.
 
 KappaPad4 is a four-button keypad intended for playing osu!. Unlike other keypads with mechanical switches, KappaPad has fixed metal pads and uses capacitive sensing to determine when they are being pressed. Because there is no key travel, one can minimize the distance their fingers move to conserve stamina during long streams.
 
-![KappaPad](images/full.jpg?raw=true)
+![kappa-pad(images/full.jpg?raw=true)
 
 ## Usage
 
-Just plug the KappaPad into a computer, and it should work as a USB keyboard, with the keys bound to Z and X. (The key bindings can be changed in the Arduino sketch.)
+Just plug the KappaPad into a computer, and it should work as a USB keyboard, with the keys bound to Z, X, C, and V. (The key bindings can be changed in the Arduino sketch.)
 
 ## How to Make One
 
@@ -20,7 +20,7 @@ The base should ideally be heavy and have a non-slip surface on the bottom. The 
 
 ### Electronics
 
-![Closeup of Electronics](images/electronics.jpg?raw=true)
+![kappa-pad-layout](images/kappa-pad-layout.png?raw=true)
 
 Components Used
 
