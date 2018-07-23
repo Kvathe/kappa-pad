@@ -2,9 +2,9 @@
 
 Forked from fb39a4's repository. Fixed minor bugs and added two more keys.
 
-KappaPad4 is a four-button keypad intended for playing osu!. Unlike other keypads with mechanical switches, KappaPad has fixed metal pads and uses capacitive sensing to determine when they are being pressed. Because there is no key travel, one can minimize the distance their fingers move to conserve stamina during long streams.
+KappaPad4 is a four-button keypad intended for playing osu!. Unlike other keypads with mechanical switches, KappaPad has fixed metal pads and uses capacitive sensing to determine when they are being pressed. Because there is no key travel, one can minimize the distance their fingers move to conserve stamina during long streams. The image below is an example of a two-key KappaPad.
 
-![kappa-pad(images/full.jpg?raw=true)
+![kappa-pad](images/full.jpg?raw=true)
 
 ## Usage
 
